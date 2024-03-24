@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.sign-up-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+li {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+
+
+}
+
+nav ul {
+  display: flex;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+  color: white;
+
+}
+
+nav ul li button {
+  margin: 0 0.5rem;
+
+
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* body {
+  background-image: url(/src/images/image1.jpg);
+  height: 100vh;
+  background-size: cover;
+
+} */
+
+h1 {
+  color: white;
+  background-color: #3498db;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+h1:hover {
+  background-color: #2980b9;
+}
+
+body {
+  background-image: url(/ace.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
